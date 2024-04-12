@@ -1,0 +1,197 @@
+.main{
+    display: flex;
+}
+
+.wagon__container{
+    width: 513px;
+    margin-right: 40px;
+    position: relative;
+}
+
+.wagon__item{
+    text-align: center;
+}
+
+.wagon__item h1{
+    margin-top: 31px;
+    font-size: 40px;
+    line-height: 49px;
+    font-weight: 500;
+}
+
+.wagon__carousel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+} 
+
+.wagon__carousel img{
+    width: 346px;
+    height: 187px;
+} 
+
+.wagon__carousel-line{
+    width: 60px;
+    height: 80px;
+    color: white;
+}
+
+.wagon__components{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.wagon__component img{
+    width: 200px;
+    height: 100px;
+}
+
+.wagon__component p{
+    font-size: 14px;
+    line-height: 17px;
+    text-align: start;
+    margin-top: 24px;
+    width: 200px;
+}
+
+.wagon__item h2{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+.wagon__form-directory{
+    width: 513px;
+}
+
+.form{
+    background-color: #202B3B;
+    border-radius: 30px;
+    
+    padding: 33px 30px;
+}
+
+.form h1{
+    font-size: 40px;
+    line-height: 49px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.input_box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 211px;
+}
+
+.check_box{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.check_box input{
+    width: 23px;
+    height: 23px;
+}
+
+.input_box label{
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+
+.input_box input{
+    padding: 5px 8px;
+    font-size: 14px;
+    line-height: 15px;
+    border-radius: 3px;
+}
+
+.form button{
+    background-color:#5371A2;
+    font-size: 18px;
+    line-height: 22px;
+    border-radius: 10px;
+    width: 250px;
+    height: 46px;
+    font-weight: 500;
+    color: white;
+    margin-left: 105px;
+    margin-top: 62px;
+    cursor: pointer;
+}
+
+.wagon__state{
+    display: flex;
+    margin-top: 56px;
+    justify-content: space-between;
+}
+
+.state h2{
+    font-size: 40px;
+    line-height: 49px;
+    font-weight: 500;
+}
+
+.state p{
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    width: 291px;
+    margin-top: 24px;
+}
+
+.wagon__doughnut{
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.wagon__doughnut p{
+    position: absolute;
+    top: 79px;
+    left: 64px;
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 500;
+}
+
+.wagon__directory{
+    background-color:#202B3B;
+    border-radius: 30px;
+    padding: 38px 30px;
+    margin-top: 40px;
+    height: 340px;
+}
+
+.wagon__directory h1{
+    font-size: 40px;
+    line-height: 49px;
+    font-weight: 500;
+}
+
+.wagon__directory p{
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400px;
+    margin-top: 20px;
+}
+
+.request{
+    background-color: #202B3B;
+    border-radius: 30px;
+    font-size: 31px;
+    line-height: 39px;
+    font-weight: 500;
+    padding: 16px 22px;
+    text-align: center;
+    margin-top: 56px;
+    position: absolute;
+    bottom: 0;
+}
